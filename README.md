@@ -1,3 +1,7 @@
+---
+   title: Lab 3042
+---
+
 # txc26-LAB-3042
 
 **Implementation & Operations Guide** — HashiCorp Vault Agent on Windows with NGINX TLS certificate auto-rotation.
