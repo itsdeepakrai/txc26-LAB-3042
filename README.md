@@ -9,6 +9,10 @@
 > [!WARNING]
 > This is a **lab implementation** (5-minute certificate TTL, HTTP Vault endpoint, `curl -k` testing). Read [Prerequisites and security notes](#4-prerequisites-and-security-notes) and the [Readiness checklist](#11-readiness-checklist) before using it in production.
 
+##Begin : Access the lab
+1. open https://itsdeepakrai.github.io/txc26-LAB-3042/
+  in new tab 
+
 ## Step 1: Mark your attendance
 
 Before you start the lab, register your presence as a student:
