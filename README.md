@@ -281,7 +281,7 @@ log_file  = "C:/Vault/logs/vault-agent.log"
 log_level = "info"
 
 vault {
-  address = "https://169.48.95.240:8200"   # e.g. https://vault.example.com:8200
+  address = "https://169.48.95.240:8200"   # e.g. http://vault.example.com:8200
   # Configure trusted CA validation for the Vault TLS certificate.
 }
 
