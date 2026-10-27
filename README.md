@@ -153,8 +153,8 @@ New-Item -ItemType File -Force -Path "C:\Vault\credentials\secret_id"
 **Populate the files**
 
 ```powershell
-notepad C:\Vault\credentials\role_id     # paste <YOUR_ROLE_ID>
-notepad C:\Vault\credentials\secret_id   # paste <YOUR_SECRET_ID>
+notepad C:\Vault\credentials\role_id     # paste 32501365-a702-372d-3562-d2348a9620d1
+notepad C:\Vault\credentials\secret_id   # paste a9f6f0a5-1628-f42b-170f-2f4928f31543
 ```
 
 Get these from Vault:
