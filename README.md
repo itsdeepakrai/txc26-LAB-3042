@@ -101,7 +101,7 @@ flowchart TD
 | Credential files | `C:\Vault\credentials\role_id` and `secret_id` |
 | Rendered certificate/key | `C:\nginx\certs\nginx.crt` and `nginx.key` |
 | Scheduled task | `Vault Agent - Certificate Rotation` |
-| Vault address | `<VAULT_ADDR>` (e.g. `https://vault.example.com:8200`) |
+| Vault address | `<VAULT_ADDR>` (e.g. `https://vault.example.com:8200`) | "https:169.48.95.240:8200"
 | PKI role / common name | PKI role `nginx-app`; CN `app.example.com` |
 | Lab certificate TTL | `5m` (testing only) |
 
@@ -281,7 +281,7 @@ log_file  = "C:/Vault/logs/vault-agent.log"
 log_level = "info"
 
 vault {
-  address = "<VAULT_ADDR>"   # e.g. https://vault.example.com:8200
+  address = "https:169.48.95.240:8200"   # e.g. https://vault.example.com:8200
   # Configure trusted CA validation for the Vault TLS certificate.
 }
 
